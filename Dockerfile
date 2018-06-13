@@ -1,4 +1,4 @@
-FROM centos:7.2
+FROM centos:7
 
 MAINTAINER Chuck zhangqidonglove@gmail.com
 

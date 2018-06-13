@@ -1,6 +1,6 @@
 # ATS Dockerfile
 
-## To start apache traffic server with Dockerfile.
+## To start apache traffic server with Dockerfile
 
 ### You have a working [Go environment].
 

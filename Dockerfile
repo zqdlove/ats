@@ -16,7 +16,7 @@ RUN groupadd tserver -g 11111 && \
     tar jxvf trafficserver-7.1.3.tar.bz2 && \
     cd trafficserver-7.1.3 && \
     ./configure --prefix=/opt/ats --with-user=tserver && \
-    make -j 40 && \
+    make && \
     make install && \
     cd / && rm -rf trafficserver-7.1.3 trafficserver-7.1.3.tar.bz2
 
@@ -24,7 +24,7 @@ RUN groupadd tserver -g 11111 && \
 RUN wget http://luajit.org/download/LuaJIT-2.0.5.tar.gz && \
     tar zxvf LuaJIT-2.0.5.tar.gz && \
     cd LuaJIT-2.0.5 && \
-    make -j 40 && \
+    make && \
     make install PREFIX=/opt/luajit && \
     cd / && rm -rf LuaJIT-2.0.5 LuaJIT-2.0.5.tar.gz
 

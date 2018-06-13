@@ -40,4 +40,5 @@ RUN chown tserver:tserver /opt/ats -R
 # CMD
 CMD /opt/ats/bin/traffic_cop
 
+# Expose port
 EXPOSE 80
